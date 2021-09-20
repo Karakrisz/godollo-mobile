@@ -5,6 +5,11 @@ $uri = $_SERVER["REQUEST_URI"];
 $cleaned = explode("?", $uri)[0];
 
 route('/', 'homeController');
+route('/price-list', 'priceListController');
+
+route('/administ', 'adminController');
+route('/addMobileSubmit', 'mobilePhonesSubmitController', "POST");
+route('/administ/(?<id>[\d]+)/phoneDelete', 'phoneDeleteController', "POST");
 
 list($view, $data) = dispatch($cleaned, 'notFoundController');
 if (preg_match("%^redirect\:%", $view)) {

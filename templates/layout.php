@@ -27,6 +27,9 @@
     <!-- Style Sheet -->
     <link href="kitchen-interior/css/style.css" rel="stylesheet">
     <link href="kitchen-interior/css/custom.css" rel="stylesheet">
+    <!-- karaKrisz Style Sheet -->
+    <link href="karaKrisz/css/stlye.css" rel="stylesheet">
+    <link href="karaKrisz/css/karaKrisz-table.css" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="90">

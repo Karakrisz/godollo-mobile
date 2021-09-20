@@ -1,0 +1,255 @@
+/******************** Start Header **********************/
+
+.navbar__logo-img {
+    max-width: 250px !important;
+    position: relative;
+    bottom: 5px;
+}
+
+.inner-wrapper__logo-img {
+    max-width: 120px !important;
+    position: relative;
+    right: 13px;
+    bottom: 30px;
+}
+
+.navbar-collapse__link {
+    padding: 0 1.7rem !important;
+}
+
+/******************** Start Slider **********************/
+
+.owl-carousel__img {
+    height: 650px;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+.service-image__img {
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+    margin: 80px 0 0 0;
+    display: none;
+}
+
+/******************** Start Testimonials **********************/
+
+.testimonial_img__img {
+    border-radius: 0 !important;
+    width: 170px !important;
+    object-fit: cover !important;
+}
+
+.text1 {
+    display: none;
+}
+
+/******************** Start Admin page **********************/
+
+.alert.alert-success {
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 60px;
+    background-color: #1A1423 !important;
+    color: white;
+}
+
+.administ-container {
+    padding: 155px 155px 100px 155px;
+}
+
+.administ-container__form__h4 {
+    margin: 25px 0 !important;
+}
+
+#addMobileSubmit input[type="text"],
+#addMobileSubmit input[type="email"],
+#addMobileSubmit input[type="tel"],
+#addMobileSubmit input[type="url"],
+#addMobileSubmit textarea,
+#addMobileSubmit button[type="submit"] {
+    font: 400 16px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#addMobileSubmit {
+    background: #f8f9fa;
+    padding: 25px;
+}
+
+#addMobileSubmit h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#addMobileSubmit h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#addMobileSubmit input[type="text"],
+#addMobileSubmit input[type="email"],
+#addMobileSubmit input[type="tel"],
+#addMobileSubmit input[type="url"],
+#addMobileSubmit textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#addMobileSubmit input[type="text"]:hover,
+#addMobileSubmit input[type="email"]:hover,
+#addMobileSubmit input[type="tel"]:hover,
+#addMobileSubmit input[type="url"]:hover,
+#addMobileSubmit textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#addMobileSubmit textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#addMobileSubmit button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #FF220C;
+    color: #FFF;
+    margin: 20px 0 5px;
+    padding: 15px;
+    font-size: 17px;
+}
+
+#addMobileSubmit button[type="submit"]:hover {
+    background: #FF220C;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#addMobileSubmit button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#addMobileSubmit input:focus,
+#addMobileSubmit textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+input#image {
+    margin-top: 20px;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+.administ-container__btn-box__btn {
+    background-color: #1A1423;
+    color: white;
+}
+
+.administ-container__btn-box__btn:hover {
+    background-color: white;
+    color: #1A1423;
+    border: 1px solid #1A1423;
+}
+
+.administ-container__btn-box__btn:focus {
+    background-color: #1A1423;
+    color: white;
+}
+
+.administ-container__btn-box {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.modal-body__btn {
+    position: relative;
+    bottom: 38px;
+}
+
+/******************** Start price list **********************/
+
+.price-list-section {
+    padding: 0 !important;
+}
+
+.price-list-container {
+    font-family: initial;
+    padding-top: 100px;
+}
+
+/******************** 404 page start **********************/
+
+.error-page-container {
+    padding-top: 100px;
+}
+
+.error-page-container__text-box {
+    margin-top: 150px;
+}
+
+.error-page-container__text-box__link {
+    margin-bottom: 25px;
+}
+
+.error-page-container__img {
+    width: 100%;
+}
+
+/******************** Start @media **********************/
+
+@media screen and (max-width: 767px) {
+    .navbar__logo-img {
+        bottom: 97px;
+    }
+
+    .price-list-container {
+        font-family: initial;
+        padding-top: 75px;
+    }
+
+    .responsive-table th,
+    .responsive-table td {
+        font-size: 20px !important;
+    }
+
+    .responsive-table tbody td {
+        font-size: 18px !important;
+    }
+}

@@ -5,28 +5,24 @@
             <div id="sync1" class="owl-carousel owl-theme">
                 <!-- Item-1 -->
                 <div class="item">
-                    <img src="kitchen-interior/images/slider-img-1.jpg" alt="Slider-Image">
+                    <img class="owl-carousel__img" src="karaKrisz/img/slider.jpg" alt="Slider-Image">
                 </div>
                 <!-- Item-2 -->
                 <div class="item">
-                    <img src="kitchen-interior/images/slider-img-2.jpg" alt="Slider-Image">
+                    <img class="owl-carousel__img" src="karaKrisz/img/slider-2.jpg" alt="Slider-Image">
                 </div>
                 <!-- Item-3 -->
                 <div class="item">
-                    <img src="kitchen-interior/images/slider-img-3.jpg" alt="Slider-Image">
-                </div>
-                <!-- Item-4 -->
-                <div class="item">
-                    <img src="kitchen-interior/images/slider-img-4.jpg" alt="Slider-Image">
+                    <img class="owl-carousel__img" src="karaKrisz/img/slider-3.jpg" alt="Slider-Image">
                 </div>
             </div>
         </div>
     </div>
     <div class="slider-icons">
         <ul class="slider-social banner-social">
-            <li><a class="" href="javascript:void(0);"><i class="fab fa-facebook-f"></i> </a></li>
-            <li><a class="" href="javascript:void(0);"><i class="fab fa-twitter"></i> </a></li>
-            <li><a class="" href="javascript:void(0);"><i class="fab fa-linkedin-in"></i> </a></li>
+            <li><a class="" href="javascript:void(0);"><i class="fab fa-facebook-f"></i> </a></li> <br>
+            <!-- <li><a class="" href="javascript:void(0);"><i class="fab fa-twitter"></i> </a></li>
+            <li><a class="" href="javascript:void(0);"><i class="fab fa-linkedin-in"></i> </a></li> -->
             <li><a class="" href="javascript:void(0);"><i class="fab fa-instagram"></i> </a></li>
         </ul>
     </div>
@@ -42,24 +38,24 @@
                 <div class="item">
                     <div class="service-box">
                         <span><i class="fa fa-clipboard"></i></span>
-                        <h4 class="my-3">Kitchen Designs</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu.</p>
+                        <h4 class="my-3">Minden ami gsm</h4>
+                        <p>Új és használt készülékek adás-vétel és csere</p>
                     </div>
                 </div>
                 <!-- Item-2 -->
                 <div class="item">
                     <div class="service-box">
                         <span><i class="fa fa-star"></i></span>
-                        <h4 class="my-3">Kitchen Panels</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu.</p>
+                        <h4 class="my-3">Mobiltelefon szerviz</h4>
+                        <p>Márkafüggetlen telefon szerviz rövid határidő, korrekt árak </p>
                     </div>
                 </div>
                 <!-- Item-3 -->
                 <div class="item">
                     <div class="service-box">
                         <span><i class="fa fa-globe"></i></span>
-                        <h4 class="my-3 ">Living Rooms</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu.</p>
+                        <h4 class="my-3 ">Kiegészítők</h4>
+                        <p>Tokok, fóliák, headsetek nagy választékban</p>
                     </div>
                 </div>
                 <!-- Item-4 -->
@@ -74,7 +70,7 @@
         </div>
     </div>
     <div class="service-image">
-        <img src="kitchen-interior/images/service.jpg" alt="Service">
+        <img class="service-image__img" src="karaKrisz/img/about.jpg" alt="Service">
     </div>
 </div>
 <!-- Some Services -->
@@ -142,9 +138,8 @@
         <div class="row text-center">
             <div class="col-12 wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
                 <div class="quote-btn">
-                    <p>Lorem ipsum dolor sit amet</p>
-                    <h4>Let us build your kitchen!</h4>
-                    <a href="kitchen-interior/standalone.html" class="btn btn-medium btn-rounded btn-green">Learn More</a>
+                    <h4>kérdése van? Hívjon bizalommal...</h4>
+                    <a href="#" class="btn btn-medium btn-rounded btn-green">Hívás most</a>
                 </div>
             </div>
         </div>
@@ -182,8 +177,8 @@
         <!--Heading-->
         <div class="row text-center">
             <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 wow zoomIn heading-area" data-wow-duration="1s" data-wow-delay=".1s">
-                <span class="sub-heading">Lorem ipsum dolor sit amet,</span>
-                <h3 class="heading text-center">We have <span class="text-green js-rotating">designed,created</span> some <span class="d-block"> beautiful Kitchens</span></h3>
+                <span class="sub-heading">Tekintsd meg,</span>
+                <h3 class="heading text-center">Üzletünkben található <br><span class="text-green js-rotating">Szilikon tokokat,3D Üvegfóliákat, Kábeleket</span> amik nálunk gyári <span class="d-block"> minőségben elérhetőek </span></h3>
                 <p class="text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
             </div>
         </div>
@@ -192,140 +187,467 @@
             <div class="col-md-12">
                 <!--Portfolio Filters-->
                 <div id="js-filters-mosaic-flat" class="cbp-l-filters-button text-center">
-                    <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All</div>
-                    <span class="text-blue">/</span>
-                    <div data-filter=".graphic" class="cbp-filter-item">Wood Panel</div>
+                    <div data-filter=".silicon-case" class="cbp-filter-item">Szilikon tokok</div>
                     <span class="text-blue"> / </span>
-                    <div data-filter=".web-design" class="cbp-filter-item">Imported Panels</div>
+                    <div data-filter=".book-case" class="cbp-filter-item">Könyvtokok</div>
                     <span class="text-blue"> / </span>
-                    <div data-filter=".graphic" class="cbp-filter-item">Artistic</div>
+                    <div data-filter=".sec-case" class="cbp-filter-item">Biztonsági tokok </div>
                     <span class="text-blue"> / </span>
-                    <div data-filter=".marketing" class="cbp-filter-item">Elite Class</div>
+                    <div data-filter=".smart-case" class="cbp-filter-item">Okostokok</div>
+                    <span class="text-blue"> / </span>
+                    <div data-filter=".glass" class="cbp-filter-item">Üvegfóliák</div>
+                    <span class="text-blue"> / </span>
+                    <div data-filter=".3d-glass" class="cbp-filter-item">3D Üvegfóliák </div>
+                    <span class="text-blue"> / </span>
+                    <div data-filter=".foil" class="cbp-filter-item">Fóliák </div>
                 </div>
 
                 <!--Portfolio Items-->
                 <div id="js-grid-mosaic-flat" class="cbp cbp-l-grid-mosaic-flat">
 
-                    <div class="cbp-item web-design graphic">
-                        <a href="kitchen-interior/images/portfolio-img-1.jpg" class="cbp-caption cbp-lightbox">
+                    <div class="cbp-item silicon-case">
+                        <a href="karaKrisz/img/silicon-case/silicon-case.jpg" class="cbp-caption cbp-lightbox">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="kitchen-interior/images/portfolio-img-1.jpg" alt="port-1">
+                                <img src="karaKrisz/img/silicon-case/silicon-case.jpg" alt="port-1">
                             </div>
                             <div class="cbp-caption-activeWrap"></div>
                             <div class="cbp-l-caption-alignCenter center-block">
                                 <div class="cbp-l-caption-body">
                                     <div class="plus"></div>
-                                    <h5 class="text-white mb-1">View Large</h5>
-                                    <p class="text-white">See Our Amazing Work</p>
+                                    <h5 class="text-white mb-1">Szilikon tokok</h5>
+                                    <p class="text-white">Gödöllőn</p>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="cbp-item seo marketing">
-                        <a href="kitchen-interior/images/portfolio-img-2.jpg" class="cbp-caption cbp-lightbox">
+                    <div class="cbp-item silicon-case">
+                        <a href="karaKrisz/img/silicon-case/silicon-case-2.jpg" class="cbp-caption cbp-lightbox">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="kitchen-interior/images/portfolio-img-2.jpg" alt="port-2">
+                                <img src="karaKrisz/img/silicon-case/silicon-case-2.jpg" alt="port-1">
                             </div>
                             <div class="cbp-caption-activeWrap"></div>
                             <div class="cbp-l-caption-alignCenter center-block">
                                 <div class="cbp-l-caption-body">
                                     <div class="plus"></div>
-                                    <h5 class="text-white mb-1">View Large</h5>
-                                    <p class="text-white">See Our Amazing Work</p>
+                                    <h5 class="text-white mb-1">Szilikon tokok</h5>
+                                    <p class="text-white">Gödöllőn</p>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="cbp-item seo marketing">
-                        <a href="kitchen-interior/images/portfolio-img-3.jpg" class="cbp-caption cbp-lightbox">
+                    <div class="cbp-item silicon-case">
+                        <a href="karaKrisz/img/silicon-case/silicon-case-3.jpg" class="cbp-caption cbp-lightbox">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="kitchen-interior/images/portfolio-img-3.jpg" alt="port-4">
+                                <img src="karaKrisz/img/silicon-case/silicon-case-3.jpg" alt="port-1">
                             </div>
                             <div class="cbp-caption-activeWrap"></div>
                             <div class="cbp-l-caption-alignCenter center-block">
                                 <div class="cbp-l-caption-body">
                                     <div class="plus"></div>
-                                    <h5 class="text-white mb-1">View Large</h5>
-                                    <p class="text-white">See Our Amazing Work</p>
+                                    <h5 class="text-white mb-1">Szilikon tokok</h5>
+                                    <p class="text-white">Gödöllőn</p>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="cbp-item graphic seo marketing">
-                        <a href="kitchen-interior/images/portfolio-img-4.jpg" class="cbp-caption cbp-lightbox">
+                    <div class="cbp-item silicon-case">
+                        <a href="karaKrisz/img/silicon-case/silicon-case-4.jpg" class="cbp-caption cbp-lightbox">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="kitchen-interior/images/portfolio-img-4.jpg" alt="port-3">
+                                <img src="karaKrisz/img/silicon-case/silicon-case-4.jpg" alt="port-1">
                             </div>
                             <div class="cbp-caption-activeWrap"></div>
                             <div class="cbp-l-caption-alignCenter center-block">
                                 <div class="cbp-l-caption-body">
                                     <div class="plus"></div>
-                                    <h5 class="text-white mb-1">View Large</h5>
-                                    <p class="text-white">See Our Amazing Work</p>
+                                    <h5 class="text-white mb-1">Szilikon tokok</h5>
+                                    <p class="text-white">Gödöllőn</p>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="cbp-item web-design graphic">
-                        <a href="kitchen-interior/images/portfolio-img-5.jpg" class="cbp-caption cbp-lightbox">
+                    <div class="cbp-item silicon-case">
+                        <a href="karaKrisz/img/silicon-case/silicon-case-5.jpg" class="cbp-caption cbp-lightbox">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="kitchen-interior/images/portfolio-img-5.jpg" alt="port-5">
+                                <img src="karaKrisz/img/silicon-case/silicon-case-5.jpg" alt="port-1">
                             </div>
                             <div class="cbp-caption-activeWrap"></div>
                             <div class="cbp-l-caption-alignCenter center-block">
                                 <div class="cbp-l-caption-body">
                                     <div class="plus"></div>
-                                    <h5 class="text-white mb-1">View Large</h5>
-                                    <p class="text-white">See Our Amazing Work</p>
+                                    <h5 class="text-white mb-1">Szilikon tokok</h5>
+                                    <p class="text-white">Gödöllőn</p>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="cbp-item seo marketing graphic ">
-                        <a href="kitchen-interior/images/portfolio-img-6.jpg" class="cbp-caption cbp-lightbox">
+                    <div class="cbp-item silicon-case">
+                        <a href="karaKrisz/img/silicon-case/silicon-case-6.jpg" class="cbp-caption cbp-lightbox">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="kitchen-interior/images/portfolio-img-6.jpg" alt="port-6">
+                                <img src="karaKrisz/img/silicon-case/silicon-case-6.jpg" alt="port-1">
                             </div>
                             <div class="cbp-caption-activeWrap"></div>
                             <div class="cbp-l-caption-alignCenter center-block">
                                 <div class="cbp-l-caption-body">
                                     <div class="plus"></div>
-                                    <h5 class="text-white mb-1">View Large</h5>
-                                    <p class="text-white">See Our Amazing Work</p>
+                                    <h5 class="text-white mb-1">Szilikon tokok</h5>
+                                    <p class="text-white">Gödöllőn</p>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="cbp-item web-design seo">
-                        <a href="kitchen-interior/images/portfolio-img-7.jpg" class="cbp-caption cbp-lightbox">
+                    <div class="cbp-item silicon-case">
+                        <a href="karaKrisz/img/silicon-case/silicon-case-7.jpg" class="cbp-caption cbp-lightbox">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="kitchen-interior/images/portfolio-img-7.jpg" alt="port-7">
+                                <img src="karaKrisz/img/silicon-case/silicon-case-7.jpg" alt="port-1">
                             </div>
                             <div class="cbp-caption-activeWrap"></div>
                             <div class="cbp-l-caption-alignCenter center-block">
                                 <div class="cbp-l-caption-body">
                                     <div class="plus"></div>
-                                    <h5 class="text-white mb-1">View Large</h5>
-                                    <p class="text-white">See Our Amazing Work</p>
+                                    <h5 class="text-white mb-1">Szilikon tokok</h5>
+                                    <p class="text-white">Gödöllőn</p>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="cbp-item web-design graphic">
-                        <a href="kitchen-interior/images/portfolio-img-8.jpg" class="cbp-caption cbp-lightbox">
+
+                    <div class="cbp-item book-case">
+                        <a href="karaKrisz/img/book-case/book_case.jpg" class="cbp-caption cbp-lightbox">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="kitchen-interior/images/portfolio-img-8.jpg" alt="port-8">
+                                <img src="karaKrisz/img/book-case/book_case.jpg" alt="port-1">
                             </div>
                             <div class="cbp-caption-activeWrap"></div>
                             <div class="cbp-l-caption-alignCenter center-block">
                                 <div class="cbp-l-caption-body">
                                     <div class="plus"></div>
-                                    <h5 class="text-white mb-1">View Large</h5>
-                                    <p class="text-white">See Our Amazing Work</p>
+                                    <h5 class="text-white mb-1">Könyvtokok</h5>
+                                    <p class="text-white">Gödöllőn</p>
                                 </div>
                             </div>
                         </a>
                     </div>
+
+                    <div class="cbp-item book-case">
+                        <a href="karaKrisz/img/book-case/book_case-2.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/book-case/book_case-2.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">Könyvtokok</h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item book-case">
+                        <a href="karaKrisz/img/book-case/book-case-3.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/book-case/book-case-3.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">Könyvtokok</h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <div class="cbp-item book-case">
+                        <a href="karaKrisz/img/book-case/book-case-4.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/book-case/book-case-4.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">Könyvtokok</h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item sec-case">
+                        <a href="karaKrisz/img/security-case/security-cases.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/security-case/security-cases.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">Biztonsági tokok </h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item sec-case">
+                        <a href="karaKrisz/img/security-case/security-cases-2.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/security-case/security-cases-2.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">Biztonsági tokok </h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item sec-case">
+                        <a href="karaKrisz/img/security-case/security-cases-3.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/security-case/security-cases-3.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">Biztonsági tokok </h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item sec-case">
+                        <a href="karaKrisz/img/security-case/security-cases-4.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/security-case/security-cases-4.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">Biztonsági tokok </h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item smart-case">
+                        <a href="karaKrisz/img/smart-case/smart-cover.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/smart-case/smart-cover.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">Okostokok</h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item smart-case">
+                        <a href="karaKrisz/img/smart-case/smart-cover-2.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/smart-case/smart-cover-2.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">Okostokok</h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item smart-case">
+                        <a href="karaKrisz/img/smart-case/smart-cover-3.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/smart-case/smart-cover-3.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">Okostokok</h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item glass">
+                        <a href="karaKrisz/img/mobile-glass/mobile-glass.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/mobile-glass/mobile-glass.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">Üvegfóliák</h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item glass">
+                        <a href="karaKrisz/img/mobile-glass/mobile-glass-2.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/mobile-glass/mobile-glass-2.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">Üvegfóliák</h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item glass">
+                        <a href="karaKrisz/img/mobile-glass/mobile-glass-3.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/mobile-glass/mobile-glass-3.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">Üvegfóliák</h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item glass">
+                        <a href="karaKrisz/img/mobile-glass/mobile-glass-4.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/mobile-glass/mobile-glass-4.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">Üvegfóliák</h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item 3d-glass">
+                        <a href="karaKrisz/img/3D-glass/mobile-3d-glass.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/3D-glass/mobile-3d-glass.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">3D Üvegfóliák</h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item 3d-glass">
+                        <a href="karaKrisz/img/3D-glass/mobile-3d-glass-2.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/3D-glass/mobile-3d-glass-2.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">3D Üvegfóliák</h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item 3d-glass">
+                        <a href="karaKrisz/img/3D-glass/mobile-3d-glass-3.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/3D-glass/mobile-3d-glass-3.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">3D Üvegfóliák</h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item 3d-glass">
+                        <a href="karaKrisz/img/3D-glass/mobile-3d-glass-4.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/3D-glass/mobile-3d-glass-4.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">3D Üvegfóliák</h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item foil">
+                        <a href="karaKrisz/img/foil/mobile-foil.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/foil/mobile-foil.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">Fóliák</h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item foil">
+                        <a href="karaKrisz/img/foil/mobile-foil-2.jpg" class="cbp-caption cbp-lightbox">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="karaKrisz/img/foil/mobile-foil-2.jpg" alt="port-1">
+                            </div>
+                            <div class="cbp-caption-activeWrap"></div>
+                            <div class="cbp-l-caption-alignCenter center-block">
+                                <div class="cbp-l-caption-body">
+                                    <div class="plus"></div>
+                                    <h5 class="text-white mb-1">Fóliák</h5>
+                                    <p class="text-white">Gödöllőn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -335,14 +657,14 @@
 <!-- End Portfolio -->
 
 <!-- Start Booking Area -->
-<section class="booking-area">
+<section class="booking-area" id="service">
     <!-- Quote Btn -->
     <div class="row text-center">
         <div class="col-12">
             <div class="quote-btn">
-                <p>Lorem ipsum dolor sit amet</p>
-                <h4>Let us build your kitchen!</h4>
-                <a href="#contact" class="scroll btn btn-medium btn-rounded btn-white">Get a Quote</a>
+                <p>Kattints,</p>
+                <h4>Bolti szerviz árlistánkhoz!</h4>
+                <a href="/price-list" class="btn btn-medium btn-rounded btn-white">Árlista</a>
             </div>
         </div>
     </div>
@@ -355,77 +677,31 @@
         <div class="row wow fadeInUp" data-wow-duration="1.5s">
             <div class="col-12 text-center">
                 <div class="heading-area">
-                    <span class="sub-heading mb-2">Lorem ipsum dolor sit amet,</span>
-                    <h4 class="heading main-font">Clients All Over the <span class="d-block"> World Loves Our Work!</span></h4>
+                    <span class="sub-heading mb-2">Olvasd el,</span>
+                    <h4 class="heading main-font">A leírást<span class="d-block">üzletünkben található készülékeinkről!</span></h4>
                 </div>
             </div>
             <div class="testimonial-owl owl-testimonial owl-carousel owl-theme">
-                <!-- Item-1 -->
-                <div class="item">
-                    <div class="testimonial-box">
-                        <div class="quote_box">
-                            <i class="fas fa-quote-right quote"></i>
-                        </div>
-                        <p class="info infot_margin text">Proin sagittis elementum odio, sed blandit sapien mattis sed. Mauris ut scelerisque risus. Donec pretium nulla ullamcorper sem maximus, et vulputate sem malesuada.</p>
 
-                        <div class="testimonial_img">
-                            <img src="kitchen-interior/images/testimonial1.png" alt="testimonial picture">
-                        </div>
-                        <div class="text1">
-                            <p class="testimonial_name">David Raleway</p>
-                            <p class="info text-red">Businessman</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Item-2 -->
-                <div class="item">
-                    <div class="testimonial-box">
-                        <div class="quote_box">
-                            <i class="fas fa-quote-right quote"></i>
-                        </div>
-                        <p class="text info infot_margin">Proin sagittis elementum odio, sed blandit sapien mattis sed. Mauris ut scelerisque risus. Donec pretium nulla ullamcorper sem maximus, et vulputate sem malesuada.</p>
-                        <div class="testimonial_img">
-                            <img src="kitchen-interior/images/testimonial2.png" alt="testimonial picture">
-                        </div>
-                        <div class="text1">
-                            <p class="testimonial_name">Kate Marasisa</p>
-                            <p class="info text-red">Interior Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Item-3 -->
-                <div class="item">
-                    <div class="testimonial-box">
-                        <div class="quote_box">
-                            <i class="fas fa-quote-right quote"></i>
-                        </div>
-                        <p class="text info infot_margin">Proin sagittis elementum odio, sed blandit sapien mattis sed. Mauris ut scelerisque risus. Donec pretium nulla ullamcorper sem maximus, et vulputate sem malesuada.</p>
+                <!-- Item -->
+                <?php foreach ($phones as $phone) : ?>
+                    <div class="item">
+                        <div class="testimonial-box">
+                            <div class="quote_box">
+                                <i class="fas fa-quote-right quote"></i>
+                            </div>
+                            <p class="info infot_margin text"><?php esc($phone['comment']) ?></p>
 
-                        <div class="testimonial_img">
-                            <img src="kitchen-interior/images/testimonial3.png" alt="testimonial picture">
-                        </div>
-                        <div class="text1">
-                            <p class="testimonial_name">Sam Billings</p>
-                            <p class="info text-red">Company Owner</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Item-4 -->
-                <div class="item">
-                    <div class="testimonial-box">
-                        <div class="quote_box">
-                            <i class="fas fa-quote-right quote"></i>
-                        </div>
-                        <p class="info infot_margin">Proin sagittis elementum odio, sed blandit sapien mattis sed. Mauris ut scelerisque risus. Donec pretium nulla ullamcorper sem maximus, et vulputate sem malesuada.</p>
-                        <div class="testimonial_img">
-                            <img src="kitchen-interior/images/testimonial4.png" alt="testimonial picture">
-                        </div>
-                        <div class="text1">
-                            <p class="testimonial_name">Daniel Bryan</p>
-                            <p class="info text-red">Designer</p>
+                            <div class="testimonial_img">
+                                <?php echo "<img class='testimonial_img__img' alt='" . $phone['brand'] . "' src='data:image/jpeg;base64," . base64_encode($phone['image']) . "'>"; ?>
+                            </div>
+                            <div class="text1">
+                                <p class="testimonial_name">David Raleway</p>
+                                <p class="info text-red">Businessman</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </div>
@@ -441,13 +717,13 @@
                 <!--Client Slider-->
                 <div class="owl-carousel partners-slider">
                     <!--Item-->
-                    <div class="logo-item"><img alt="client-logo" src="kitchen-interior/images/client-1.png"></div>
+                    <div class="logo-item"><img alt="client-logo" src="karaKrisz/img/redbox-final.png"></div>
                     <!--Item-->
-                    <div class="logo-item"><img alt="client-logo" src="kitchen-interior/images/client-2.png"></div>
+                    <div class="logo-item"><img alt="client-logo" src="karaKrisz/img/redbox-final.png"></div>
                     <!--Item-->
-                    <div class="logo-item"><img alt="client-logo" src="kitchen-interior/images/client-3.png"></div>
+                    <div class="logo-item"><img alt="client-logo" src="karaKrisz/img/redbox-final.png"></div>
                     <!--Item-->
-                    <div class="logo-item"><img alt="client-logo" src="kitchen-interior/images/client-4.png"></div>
+                    <div class="logo-item"><img alt="client-logo" src="karaKrisz/img/redbox-final.png"></div>
                 </div>
             </div>
         </div>
@@ -487,7 +763,7 @@
             <div class="col-lg-7 mt-4 pt-3 mt-lg-0 pt-lg-0 wow fadeInLeft">
                 <!--Heading-->
                 <div class="heading-area pb-2">
-                    <h2 class="heading">Let’s Get In Touch</h2>
+                    <h2 class="heading">Vegye fel velünk a kapcsolatot</h2>
                 </div>
                 <!--Contact Form-->
                 <form class="contact-form" id="contact-form-data">
@@ -514,7 +790,7 @@
                         </div>
                         <!--Button-->
                         <div class="col-md-12">
-                            <a href="javascript:void(0);" class="btn btn-medium btn-rounded btn-green w-100 contact_btn main-font mt-4">Send Message</a>
+                            <a href="javascript:void(0);" class="btn btn-medium btn-rounded btn-green w-100 contact_btn main-font mt-4">Üzenet küldése</a>
                         </div>
                     </div>
                 </form>

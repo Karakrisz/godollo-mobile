@@ -13,19 +13,20 @@
     <!--Navigation-->
     <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
         <div class="container">
-            <a href="index-kitchen-interior.html" title="Logo" class="logo">
+            <a href="/" title="Logo" class="logo">
                 <!--Logo Default-->
-                <img src="kitchen-interior/images/logo-white.png" title="logo" alt="logo" class="logo-default">
+                <img class="navbar__logo-img" src="karaKrisz/img/redbox-final.png" title="logo" alt="logo" class="logo-default">
             </a>
 
             <!--Nav Links-->
             <div class="collapse navbar-collapse" id="megaone">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link scroll line" href="#slider">Home</a>
-                    <a class="nav-link scroll line" href="#about">About Us</a>
-                    <a class="nav-link scroll line" href="#portfolio">Kitchen Designs</a>
-                    <a class="nav-link scroll line" href="#testimonials">Client Reviews</a>
-                    <a class="nav-link scroll line" href="#contact">Contact Us</a>
+                    <a class="navbar-collapse__link nav-link scroll line" href="./#slider">Kezdőlap</a>
+                    <a class="navbar-collapse__link nav-link scroll line" href="./#about">Rólunk</a>
+                    <a class="navbar-collapse__link nav-link scroll line" href="./#portfolio">Galléria</a>
+                    <a class="navbar-collapse__link nav-link scroll line" href="./#service">Szerviz</a>
+                    <a class="navbar-collapse__link nav-link scroll line" href="./#testimonials">Mobiltelefonok</a>
+                    <a class="navbar-collapse__link nav-link scroll line" href="./#contact">Kapcsolat</a>
                 </div>
             </div>
         </div>
@@ -48,26 +49,29 @@
     <div class="side-menu hidden">
         <div class="inner-wrapper">
             <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
-            <a href="index-kitchen-interior.html" title="Logo" class="logo side-logo">
+            <a href="/" title="Logo" class="logo side-logo">
                 <!--Logo Default-->
-                <img src="kitchen-interior/images/logo-white.png" alt="logo">
+                <img class="inner-wrapper__logo-img" src="karaKrisz/img/redbox-final.png" alt="logo">
             </a>
             <nav class="side-nav w-100">
                 <ul class="navbar-nav side-navbar">
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#slider">Home</a>
+                        <a class="side-nav__link nav-link scroll" href="./#slider">Kezdőlap</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#about">About Us</a>
+                        <a class="side-nav__link nav-link scroll" href="./#about">Rólunk</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#portfolio">Kitchen Designs</a>
+                        <a class="side-nav__link nav-link scroll" href="./#portfolio">Galléria</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#testimonials">Client Reviews</a>
+                        <a class="side-nav__link nav-link scroll" href="./#service">Szerviz</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#contact">Contact Us</a>
+                        <a class="side-nav__link nav-link scroll" href="./#testimonials">Mobiltelefonok</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="side-nav__link nav-link scroll" href="./#contact">Kapcsolat</a>
                     </li>
                 </ul>
             </nav>
@@ -75,11 +79,9 @@
             <div class="side-footer w-100">
                 <ul class="social-icons-simple">
                     <li><a class="social-icon" href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
-                    <li><a class="social-icon" href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
-                    <li><a class="social-icon" href="javascript:void(0)"><i class="fab fa-linkedin-in"></i> </a> </li>
                     <li><a class="social-icon" href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
                 </ul>
-                <p>&copy; 2020 MegaOne. Made With Love by Themesindustry</p>
+                <p>&copy; 2020 karaKrisz. Minden jog fenntartva </p>
             </div>
         </div>
     </div>

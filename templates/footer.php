@@ -7,17 +7,13 @@
                 <div class="footer-social">
                     <ul class="list-unstyled">
                         <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-facebook-f"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-twitter"></i></a></li>
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-google-plus-g"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-linkedin-in"></i></a></li>
                         <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-instagram"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-pinterest-p"></i></a></li>
                     </ul>
                 </div>
             </div>
             <!--Text-->
             <div class="col-md-6 text-md-right">
-                <p class="company-about fadeIn pr-0 pr-md-1">© 2020 MegaOne. Made With Love By <a href="javascript:void(0);">Themesindustry</a>
+                <p class="company-about fadeIn pr-0 pr-md-1">© 2020 karaKrisz. Minden jog fenntartva <a href="javascript:void(0);"></a>
                 </p>
             </div>
         </div>
@@ -41,3 +37,4 @@
 <!-- CUSTOM JS -->
 <script src="vendor/js/contact_us.js"></script>
 <script src="kitchen-interior/js/script.js"></script>
+<script src="karaKrisz/js/app.js"></script>

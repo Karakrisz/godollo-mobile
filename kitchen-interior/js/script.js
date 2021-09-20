@@ -7,7 +7,7 @@ $(window).on("load", function () {
 
     $('.side-menu').removeClass('hidden');
 
-    setTimeout(function(){
+    setTimeout(function () {
         $('.loader1').fadeToggle();
 
     }, 1000);
@@ -38,16 +38,18 @@ jQuery(function ($) {
 
     //Click event to scroll to top
     $(document).on('click', '.scroll-top-arrow', function () {
-        $('html, body').animate({scrollTop: 0}, 800);
+        $('html, body').animate({
+            scrollTop: 0
+        }, 800);
         return false;
     });
 
-    $(".scroll").on("click", function (event) {
-        event.preventDefault();
-        $("html,body").animate({
-            scrollTop: $(this.hash).offset().top - 60
-        }, 1200);
-    });
+    // $(".scroll").on("click", function (event) {
+    //     event.preventDefault();
+    //     $("html,body").animate({
+    //         scrollTop: $(this.hash).offset().top - 60
+    //     }, 1200);
+    // });
 
     $(".slider-btn").on("click", function (event) {
         event.preventDefault();
@@ -100,25 +102,25 @@ jQuery(function ($) {
     sync1.owlCarousel({
         // autoWidth:true,
         // singleItem:true,
-        items:1,
-        slideSpeed : 3000,
+        items: 1,
+        slideSpeed: 3000,
         nav: false,
         dots: false,
         loop: true,
-        margin:0,
-        autoplay:false,
-        transitionStyle:"fade",
-        responsiveRefreshRate : 200,
+        margin: 0,
+        autoplay: 1500,
+        transitionStyle: "fade",
+        responsiveRefreshRate: 200,
         // breakpoint from 480 up
-        0 : {
-            items:1,
+        0: {
+            items: 1,
         },
-        480 : {
-            items:1,
+        480: {
+            items: 1,
         },
         // breakpoint from 768 up
-        800 : {
-            items:1,
+        800: {
+            items: 1,
         }
         // navText: ['<svg width="100%" height="100%" viewBox="0 0 11 20"><path style="fill:none;stroke-width: 1px;stroke: #000;" d="M9.554,1.001l-8.607,8.607l8.607,8.606"/></svg>','<svg width="100%" height="100%" viewBox="0 0 11 20" version="1.1"><path style="fill:none;stroke-width: 1px;stroke: #000;" d="M1.054,18.214l8.606,-8.606l-8.606,-8.607"/></svg>'],
     }).on('changed.owl.carousel', syncPosition);
@@ -128,13 +130,13 @@ jQuery(function ($) {
             sync2.find(".owl-item").eq(1).addClass("current");
         })
         .owlCarousel({
-            items : slidesPerPage,
+            items: slidesPerPage,
             dots: false,
             nav: false,
             smartSpeed: 200,
-            slideSpeed : 500,
+            slideSpeed: 500,
             slideBy: slidesPerPage, //alternatively you can slide by 1, this way the active slide will stick to the first item in the second carousel
-            responsiveRefreshRate : 100,
+            responsiveRefreshRate: 100,
             responsive: {
                 0: {
                     items: 1
@@ -150,13 +152,13 @@ jQuery(function ($) {
         //var current = el.item.index;
 
         //if you disable loop you have to comment this block
-        var count = el.item.count-1;
-        var current = Math.round(el.item.index - (el.item.count/2) - .5);
+        var count = el.item.count - 1;
+        var current = Math.round(el.item.index - (el.item.count / 2) - .5);
 
-        if(current < 0) {
+        if (current < 0) {
             current = count;
         }
-        if(current > count) {
+        if (current > count) {
             current = 0;
         }
         //end block
@@ -179,13 +181,13 @@ jQuery(function ($) {
     }
 
     function syncPosition2(el) {
-        if(syncedSecondary) {
+        if (syncedSecondary) {
             var number = el.item.index;
             sync1.data('owl.carousel').to(number, 100, true);
         }
     }
 
-    sync2.on("click", ".owl-item", function(e){
+    sync2.on("click", ".owl-item", function (e) {
         e.preventDefault();
         var number = $(this).index();
         sync1.data('owl.carousel').to(number, 300, true);
@@ -253,7 +255,7 @@ jQuery(function ($) {
                 gapVertical: 15,
             }
         }],
-        defaultFilter: '*',
+        defaultFilter: '.silicon-case',
         animationType: 'fadeOutTop',
         gapHorizontal: 0,
         gapVertical: 0,
@@ -283,12 +285,12 @@ jQuery(function ($) {
 
     var owl5 = $('.owl-testimonial');
     owl5.owlCarousel({
-        items:1,
-        dots:true,
-        loop:true,
-        autoplay: false,
+        items: 1,
+        dots: true,
+        loop: true,
+        autoplay: 1500,
         responsiveClass: true,
-        center:true,
+        center: true,
         responsive: {
             0: {
                 items: 1,
@@ -338,9 +340,9 @@ jQuery(function ($) {
         Contact Canvas
     ====================================== */
 
-    function dotCanvas(){
+    function dotCanvas() {
         var $blocks = $('[data-dots]');
-        $blocks.each(function() {
+        $blocks.each(function () {
             var $block = $(this);
             var block = $block[0];
             var $canvas = $("<canvas/>").appendTo($block);
@@ -364,7 +366,7 @@ jQuery(function ($) {
                 this.y = y;
                 this.distance = 7;
                 this.radians = 0;
-                this.draw = function() {
+                this.draw = function () {
                     ctx.beginPath();
                     ctx.strokeStyle = 'rgba(151, 151, 151, .28)';
                     ctx.moveTo(this.x + 3, this.y);
@@ -373,7 +375,7 @@ jQuery(function ($) {
                     ctx.lineTo(this.x + 6, this.y + 3);
                     ctx.stroke();
                 };
-                this.update = function() {
+                this.update = function () {
                     if (mouseX > -1) {
                         var k1 = mouseY - y;
                         var k2 = mouseX - x;
@@ -400,13 +402,13 @@ jQuery(function ($) {
                     circlesArray.push(new Circle(x, y));
                 }
             }
-            var loop = function() {
+            var loop = function () {
                 ctx.clearRect(0, 0, ctx.width, ctx.height);
                 for (var i = 0; i < circlesArray.length; i++) {
                     circlesArray[i].update();
                 }
             };
-            document.addEventListener('mousemove', function(e) {
+            document.addEventListener('mousemove', function (e) {
                 var parentOffset = $(canvas).parent().offset();
                 var relX = e.pageX - parentOffset.left;
                 var relY = e.pageY - parentOffset.top;
